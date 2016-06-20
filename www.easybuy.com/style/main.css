@@ -1,0 +1,183 @@
+/*  Main CSS File */
+
+ @font-face{
+    font-family:angelimport;
+	src:url("http://localhost/www.easybuy.com/custom_fonts/angel.otf") format(opentype);
+ }
+  @font-face{
+    font-family:reditumimport;
+	src:url("http://localhost/www.easybuy.com/custom_fonts/reditum.ttf") format(truetype);
+ }
+  @font-face{
+    font-family:extraornamentalimport;
+	src:url("http://localhost/www.easybuy.com/custom_fonts/extraornamental.ttf") format(truetype);
+ }
+  @font-face{
+    font-family:grafikimport;
+	src:url("http://localhost/www.easybuy.com/custom_fonts/grafik.ttf") format(truetype);
+ }
+  @font-face{
+    font-family:satanhumimport;
+	src:url("http://localhost/www.easybuy.com/custom_fonts/satanhum.ttf") format(truetype);
+ }
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  
+  }
+  
+
+h1{
+   margin-left: 10px;
+   margin-right: 100px;
+   font-family:satanhumimport;
+   font-size:36px;
+   color:#CC0033;
+    
+}
+
+
+h2{
+   margin-left: 10px;
+   margin-right: 100px;
+   font-family:extraornamentalimport;
+   font-size:20px;
+   color:#330066;
+
+}
+/*                      */
+ 
+  body{
+
+background: url(http://localhost/www.easybuy.com/images/b21.jpg) repeat-y;
+-webkit-animation: backgroundScroll 20s linear infinite;
+animation: backgroundScroll 20s linear infinite;
+}
+ 
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+ 
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+	  
+/*                      */	  
+	  
+#main_wrapper{
+   width:  1000px;
+   height:  1500px;
+   margin: 20px auto 20px;
+   background:url(../images/b11.jpg);
+  /* border-radius: 8px;
+   -moz-border-radius: 8px;
+   -webkit-border-radius: 8px;  */
+   
+}	  
+
+#main_header{
+   width: 970px;
+   padding: 15px;
+   height: 120px;
+   }
+   
+#main_menu{
+   
+   width: 1000px;
+   height: 50px;
+   background: url(../images/b2.jpg);
+   margin-bottom: 15px;
+ }
+
+#page{
+  float: left;
+  color: #FFFFFF;
+  font-family:extraornamentalimport;
+  font-size: 20px;
+  padding: 13px 20px 13px;
+  
+}
+
+#page:hover{
+   background: url(../images/b3.jpg);
+   height: 24px;
+
+}
+
+#content_wrapper{
+    width: 1000px;
+}
+
+#left_side{
+     float: left;
+     width: 180px;
+	 margin-left: 15px;
+	 margin-right: 15px;
+}
+
+#lpm{
+    color:#C00;
+	width: 160px;
+	font-weight: 500;
+	font-family:grafikimport;
+	font-size:30px;
+	padding-left: 20px;
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#lpm:hover{
+    color:#FFFFFF;
+	background:url(../images/b1.jpg);
+}
+
+#left_side > a{
+     text-decoration: none;
+}
+#main_content{
+    float: left;
+	width: 780px;
+}	
+
+#right_side{
+     float: right;
+     width: 180px;
+	 margin-left: 15px;
+	 margin-right: 15px;
+}	
+   
+#main_footer{
+      color: #000;
+     width: 1000px;
+	 margin: 15px auto;
+	 text-align: center;
+	 font-size: 15px;
+	 font-weight:bold;
+	 
+	 font-family: arial;
+}   
+
+/******************************************************/
+
+#cart_wrap{
+   width: 180px;
+   margin-top: 5px;
+}
+
+#cart_header{
+width: 160px;
+font-family:extraornamentalimport;
+padding: 10px;
+text-align: center;
+color:#FF0033;
+background:url(../images/b16.jpg);
+ 
+}
+#cart_header:hover{
+   color:#000000;
+   background:url(../images/b18.jpg);
+}

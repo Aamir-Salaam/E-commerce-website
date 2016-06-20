@@ -1,0 +1,21 @@
+.page_title{
+  color:#FF0033;
+  font-family: Tahoma, Geneva,sans-serif;
+  font_size: 30px;
+
+}
+
+label{
+   color:#000000;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: bold;
+
+}
+.text_input{
+     width: 300px;
+     padding: 5px;
+	 
+}
+#button{
+   padding: 5px 8px 5px;
+}
